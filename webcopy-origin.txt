@@ -1,0 +1,60 @@
+Uri: https://dedeng-nu.vercel.app/
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\index.htm
+Content Type: text/html
+
+Uri: https://dedeng-nu.vercel.app/2.gif
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\2.gif
+Content Type: image/gif
+
+Uri: https://dedeng-nu.vercel.app/4.gif
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\4.gif
+Content Type: image/gif
+
+Uri: https://dedeng-nu.vercel.app/css
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\css
+Content Type: application/octet-stream
+
+Uri: https://dedeng-nu.vercel.app/css-1
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\css-1
+Content Type: application/octet-stream
+
+Uri: https://dedeng-nu.vercel.app/dddengmusic.mp3
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\dddengmusic.mp3
+Content Type: audio/mpeg
+
+Uri: https://dedeng-nu.vercel.app/Hippo1280.gif
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\Hippo1280.gif
+Content Type: image/gif
+
+Uri: https://dedeng-nu.vercel.app/smack.gif
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\smack.gif
+Content Type: image/gif
+
+Uri: https://dedeng-nu.vercel.app/style.css
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\style.css
+Content Type: text/css
+
+Uri: https://dedeng-nu.vercel.app/TD Mars.otf
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\TD Mars.otf
+Content Type: font/otf
+
+Uri: https://dedeng-nu.vercel.app/white_dexscr_60x62.svg
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\white_dexscr_60x62.svg
+Content Type: image/svg+xml
+
+Uri: https://dedeng-nu.vercel.app/white_dextools_60x62.svg
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\white_dextools_60x62.svg
+Content Type: image/svg+xml
+
+Uri: https://dedeng-nu.vercel.app/white_ray_60x62.svg
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\white_ray_60x62.svg
+Content Type: image/svg+xml
+
+Uri: https://dedeng-nu.vercel.app/white_tg_60x62.svg
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\white_tg_60x62.svg
+Content Type: image/svg+xml
+
+Uri: https://dedeng-nu.vercel.app/white_x_60x62.svg
+File Name: C:\Downloaded Web Sites\dedeng-nu.vercel.app\white_x_60x62.svg
+Content Type: image/svg+xml
+

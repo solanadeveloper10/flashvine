@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html class="no-js" lang="en"><!--<![endif]-->
+
+<head></head>
+<meta charset="utf-8">
+<title>FlashVine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="style.css" />
+
+<body>
+    <audio id="myAudio" loop="true">
+        <source src="dddengmusic.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Додані лінки -->
+    <div class="gif-container" id="gifContainer" style="display: none;">
+
+        <div class="left-links">
+            <a href="https://t.me/DedengHippo" target="_blank" class="gif-small">
+                <div class="gif-wrapper">
+                    <!-- Картинка --> <img src="4.gif" alt="Large Link">
+                    <!-- лого --> <img class="overlay-svg" src="white_tg_60x62.svg" alt="SVG Overlay">
+                </div>
+            </a>
+            <a href="https://x.com/DedengHippo" target="_blank" class="gif-small">
+                <div class="gif-wrapper">
+                    <img src="4.gif" alt="Small Link">
+                    <img class="overlay-svg" src="white_x_60x62.svg" alt="SVG Overlay">
+                </div>
+            </a>
+        </div>
+        <div class="right-links">
+            <a href="https://raydium.io/swap/?inputMint=sol&outputMint=B5XVLvN3vWGN2CnvLvAtJYBYxUyNLgC2mGaWoXMpump"
+                target="_blank" class="gif-small">
+                <div class="gif-wrapper">
+                    <img src="4.gif" alt="Small Link">
+                    <img class="overlay-svg" src="white_ray_60x62.svg" alt="SVG Overlay">
+                </div>
+            </a>
+            <a href="https://www.dextools.io/app/en/solana/pair-explorer/6Ur9FfE1zoU18S4ZkTzLhGJiE3n5L4nra8J9EpLA2b8o"
+                target="_blank" class="gif-small">
+                <div class="gif-wrapper">
+                    <img src="4.gif" alt="Small Link">
+                    <img class="overlay-svg" src="white_dextools_60x62.svg" alt="SVG Overlay">
+                </div>
+            </a>
+            <a href="https://dexscreener.com/solana/B5XVLvN3vWGN2CnvLvAtJYBYxUyNLgC2mGaWoXMpump" target="_blank"
+                class="gif-small">
+                <div class="gif-wrapper">
+                    <img src="4.gif" alt="Small Link">
+                    <img class="overlay-svg" src="white_dexscr_60x62.svg" alt="SVG Overlay">
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--  -->
+    <div class="mainChar">
+        <p class="dddengword" style="font-size: 7px; z-index: 999999; margin-left: 80px" onclick="copytcb()">
+            B5XVLvN3vWGN2CnvLvAtJYBYxUyNLgC2mGaWoXMpump</p>
+        <img id="dddengimg" src="Hippo1280.gif">
+        <p class="dddengword">$DEDENG</p>
+    </div>
+
+    <img id="smackme" src="smack.gif" style="transform: rotate(45deg);">
+
+    <div class="mainNav" style="display: none;">
+        <a class="childNav"
+            href="https://www.birdeye.so/token/EQkD2nAXpYeBrWmtkvtWB8YvJ7wGGrZapk7bJfF8pump?chain=solana">Birdeye</a>
+        <a class="childNav" href="https://jup.ag/swap/SOL-EQkD2nAXpYeBrWmtkvtWB8YvJ7wGGrZapk7bJfF8pump">Jupiter</a>
+        <a class="childNav"
+            href="https://dexscreener.com/solana/EQkD2nAXpYeBrWmtkvtWB8YvJ7wGGrZapk7bJfF8pump">Dexscreener</a>
+        <a class="childNav"
+            href="https://www.dextools.io/app/en/solana/pair-explorer/EQkD2nAXpYeBrWmtkvtWB8YvJ7wGGrZapk7bJfF8pump">Dextools</a>
+    </div>
+
+    <script>
+        var x = document.getElementById("myAudio");
+
+        function playAudio() {
+            x.play();
+        }
+
+        function pauseAudio() {
+            x.pause();
+        }
+
+        document.querySelector("body").addEventListener("submit", function (e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener("click", () => {
+            const gifContainer = document.getElementById("gifContainer");
+            gifContainer.style.display = "flex"; // Відображаємо блок
+        }, { once: true });
+        var words = [
+
+            '$DEDENG',
+            '$DEDENG',
+            '0% TAXES',
+            'CONTRACT RENOUNCED',
+            'LP BURNT',
+            '$DEDENG',
+            '$DEDENG',
+            '$DEDENG',
+            '0% TAXES',
+            'CONTRACT RENOUNCED',
+            'LP BURNT',
+            '$DEDENG'
+        ];
+
+        var colors = [
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff',
+            '#ffffff'
+        ];
+
+        var backColor = [
+            '#ffff00',
+            '#ff0000',
+            '#00ffff',
+            '#0000ff',
+            '#00ff00',
+            '#999900',
+            '#990000',
+            '#009999',
+            '#0000ff',
+            '#00ff00',
+            '#000099',
+            '#009900',
+        ];
+
+        var sizes = [
+            '120%',
+            '130%',
+            '130%',
+            '170%',
+            '120%',
+            '130%',
+            '150%',
+            '130%',
+            '170%',
+            '180%',
+            '130%',
+            '110%'
+        ];
+
+        var wordcount = 0;
+        var elems = [];
+
+        function randomBG() {
+            var randomnum = Math.floor(Math.random() * (9 - 0 + 1) + 0)
+            document.body.style.backgroundColor = backColor[randomnum];
+        }
+
+        function randomword() {
+            var randomnum = Math.floor(Math.random() * (9 - 0 + 1) + 0)
+            var randomnums = Math.floor(Math.random() * (9 - 0 + 1) + 0)
+            var randomnumss = Math.floor(Math.random() * (9 - 0 + 1) + 0)
+            var randomnumsss = Math.floor(Math.random() * (9 - 0 + 1) + 0)
+
+            var dddengword = document.getElementsByClassName("dddengword");
+            dddengword[0].style.color = colors[randomnum];
+            dddengword[1].style.color = colors[randomnums];
+
+            var childNav = document.getElementsByClassName("childNav");
+            childNav[0].style.backgroundColor = colors[randomnum];
+            childNav[1].style.backgroundColor = colors[randomnums];
+            childNav[2].style.backgroundColor = colors[randomnumss];
+            childNav[3].style.backgroundColor = colors[randomnumsss];
+            childNav[0].style.color = "black";
+            childNav[1].style.color = "black";
+            childNav[2].style.color = "black";
+            childNav[3].style.color = "black";
+
+            var fullWidth = window.innerWidth;
+            var fullHeight = window.innerHeight;
+
+            elems.forEach(changeColor);
+
+            if (wordcount < 10) {
+                var elem = document.createElement("div");
+                elems.push(elem);
+                elem.id = "newid";
+                elem.textContent = words[randomnum];
+                elem.style.position = "fixed";
+                elem.style.fontSize = sizes[randomnums];
+                elem.style.color = colors[randomnum];
+                elem.style.left = Math.round(Math.random() * fullWidth) + "px";
+                elem.style.top = Math.round(Math.random() * fullHeight) + "px";
+                document.body.appendChild(elem);
+                wordcount++;
+            }
+            else {
+                elems[randomnum].textContent = words[randomnum];
+                elems[randomnum].style.position = "fixed";
+                elems[randomnum].style.fontSize = sizes[randomnums];
+                elems[randomnum].style.color = colors[randomnum];
+                elems[randomnum].style.left = Math.round(Math.random() * fullWidth) + "px";
+                elems[randomnum].style.top = Math.round(Math.random() * fullHeight) + "px";
+            }
+        };
+
+        function changeColor(item) {
+            var randomnum = Math.floor(Math.random() * (9 - 0 + 1) + 0)
+            item.style.color = colors[randomnum];
+        }
+
+        window.onload = setInterval(randomBG, 80);
+
+        window.addEventListener("click", () => {
+            smackme.style.visibility = "hidden";
+            playAudio();
+            setInterval(randomword, 80);
+        }, { once: true });
+
+
+        function copytcb() {
+            var copyText = "EQkD2nAXpYeBrWmtkvtWB8YvJ7wGGrZapk7bJfF8pump";
+            navigator.clipboard.writeText(copyText);
+            alert("Copied the text: " + copyText);
+        }
+    </script>
+</body>
+
+</html>

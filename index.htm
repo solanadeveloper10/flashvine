@@ -14,7 +14,7 @@
 
 <body>
     <audio id="myAudio" loop="true">
-        <source src="dddengmusic.mp3" type="audio/mpeg">
+        <source src="music.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
@@ -61,13 +61,18 @@
     </div>
     <!--  -->
     <div class="mainChar">
-        <p class="dddengword" style="font-size: 7px; z-index: 999999; margin-left: 80px" onclick="copytcb()">
+        <p class="dddengword" id="contract" onclick="copytcb()">
             B5XVLvN3vWGN2CnvLvAtJYBYxUyNLgC2mGaWoXMpump</p>
-        <img id="dddengimg" src="Hippo1280.gif">
-        <p class="dddengword">$DEDENG</p>
+            <div class="smackme-container">
+                <img id="smackme" src="smack.gif" style="transform: rotate(45deg);">
+            </div>
+        <div class="dddengimg-wrapper">
+            <img id="dddengimg" src="video.gif">
+        </div>
+        <p class="dddengword">$FVINE</p>
+
     </div>
 
-    <img id="smackme" src="smack.gif" style="transform: rotate(45deg);">
 
     <div class="mainNav" style="display: none;">
         <a class="childNav"
@@ -100,18 +105,18 @@
         }, { once: true });
         var words = [
 
-            '$DEDENG',
-            '$DEDENG',
+            '$FVINE',
+            '$FVINE',
             '0% TAXES',
             'CONTRACT RENOUNCED',
             'LP BURNT',
-            '$DEDENG',
-            '$DEDENG',
-            '$DEDENG',
+            '$FVINE',
+            '$FVINE',
+            '$FVINE',
             '0% TAXES',
             'CONTRACT RENOUNCED',
             'LP BURNT',
-            '$DEDENG'
+            '$FVINE'
         ];
 
         var colors = [
@@ -220,12 +225,19 @@
             item.style.color = colors[randomnum];
         }
 
-        window.onload = setInterval(randomBG, 80);
+        window.onload = () => {
+            setInterval(randomBG, 80);
+
+        }
+
 
         window.addEventListener("click", () => {
             smackme.style.visibility = "hidden";
             playAudio();
             setInterval(randomword, 80);
+
+            const contract = document.getElementById('contract')
+            contract.style.backgroundColor = 'blue';
         }, { once: true });
 
 
